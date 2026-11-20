@@ -1,0 +1,18 @@
+{
+  "name": "qian-dazi-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "钱搭子 - 支付宝 AI 网页应用收款服务端",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "alipay-sdk": "^3.4.0",
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
